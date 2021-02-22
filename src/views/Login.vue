@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="logo">
-      <img src="../assets/logo.png" alt="logo">
+      <div class="logo-picture"></div>
     </div>
     <!-- 手机号 -->
     <InputGroup 
@@ -152,6 +152,7 @@ export default {
   height: 100vh;
   background-color: rgba(17, 17, 17, 0.541);
   overflow: hidden;
+  z-index: 100;
 }
 
 .login .erweima .erweima-center{
@@ -170,6 +171,7 @@ export default {
   height: 200px;
   background-image: url('../assets/erweima.png');
 }
+
 .login {
   width: 100%;
   height: 100%;
@@ -177,12 +179,12 @@ export default {
   background: #fff;
 }
 
-.logo {
-  text-align: center;
-}
 
-.logo img {
+.logo .logo-picture {
+  margin: 0 auto;
   width: 150px;
+  height: 37px;
+  background-image: url('../assets/logo.png');
 }
 
 .text_group,
