@@ -21,7 +21,7 @@
         <ul class="list payment-list">
           <li class="payment-list-item">
             <div class="icon">
-              <img src="../../assets/wechart.jpg" alt="">
+              <img src="../../assets/wechart.png" alt="">
               <span>微信</span>
             </div>
             <i class="fa fa-check-circle selected"></i>

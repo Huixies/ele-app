@@ -7,7 +7,7 @@
       </div>
     </div>
     <div class="logo">
-      <img src="../assets/logo.jpg" alt="my login image">
+      <img src="../assets/logo.png" alt="logo">
     </div>
     <!-- 手机号 -->
     <InputGroup 
@@ -173,7 +173,6 @@ export default {
 .login {
   width: 100%;
   height: 100%;
-
   box-sizing: border-box;
   background: #fff;
 }
